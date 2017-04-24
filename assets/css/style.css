@@ -1,0 +1,68 @@
+body {
+	background: #f0f2f3 none repeat scroll 0 0;
+	color: #34404e;
+
+}
+
+.wrapper{
+	width: 70%;
+	margin: 15px auto;
+
+}
+
+.header_page{
+	width: 100%;
+	height: 90px;
+	display: inline-block;
+	position: relative;
+}
+
+
+
+.igreja_logo{
+	width: 10%;
+	float: left;
+}
+
+.titulo{
+	text-align: center;
+}
+
+#botao_voltar{
+	width: 20%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+hr{
+	color: #000;
+	border-color: #000;
+}
+.subtitulo{
+	font-weight: bold;
+}
+
+.dep_interno_titulo{
+	height: 30px;
+}
+
+.dep_interno{
+	height: 50px;
+}
+
+.botoes{
+	margin: 50px 0;
+}
+
+
+@media (max-width: 980px) {
+  	.wrapper {
+		width: 100%;
+		margin: 15px auto;
+	}
+
+	.dep_interno_titulo{
+		margin-top: 30px;
+	}
+}
