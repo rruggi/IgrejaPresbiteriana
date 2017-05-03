@@ -59,7 +59,7 @@
 								</div>
 								<div class="col-xs-2">
 									<label>  Numero </label>
-									<input value="403" class="form-control" name="ig_numero"  type="text" id="ig_numero">
+									<input value="403" class="form-control numeros" name="ig_numero"  type="text" id="ig_numero">
 								</div>
 							</div>
 
@@ -165,7 +165,7 @@
 								</div>
 								<div class="col-xs-2">
 									<label> Numero </label>
-									<input class="form-control" value="" name="sec_num" id="sec_num">
+									<input class="form-control numeros" value="" name="sec_num" id="sec_num">
 								</div>
 							</div>
 
@@ -319,11 +319,11 @@
 								</div>
 								<div  class="">
 									<label> Nº de Alunos/ED - ano anterior:</label>
-									<input class="form-control numeros" value="" onchange="variacao(num_aluno_ed_ant, num_alunos_ed_atua, num_var_perc)"  name="num_aluno_ed_ant"  id="num_aluno_ed_ant"  disabled="">
+									<input class="form-control numeros" value="" onkeyup="variacao(num_aluno_ed_ant, num_alunos_ed_atua, num_var_perc)"  name="num_aluno_ed_ant"  id="num_aluno_ed_ant"  disabled="">
 								</div>
 								<div  class="">
 									<label>Nº de Alunos/ED - ano atual:</label>
-									<input class="form-control numeros" name="num_alunos_ed_atua" value="" onchange="variacao(num_aluno_ed_ant, num_alunos_ed_atua, num_var_perc)"  id="num_alunos_ed_atua">
+									<input class="form-control numeros" name="num_alunos_ed_atua" value="" onkeyup="variacao(num_aluno_ed_ant, num_alunos_ed_atua, num_var_perc)"  id="num_alunos_ed_atua">
 								</div>
 								<div  class="">
 									<label>Variação percentual - ED:</label>
@@ -504,10 +504,10 @@
 									<label>Profissão de Fé:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a11"  id="a11" size="2" maxlength="4" onKeyUp="soma(a11, a12, a13)">
+									<input class="form-control numeros comungantes_admitidos_fem" placeholder="0" name="a11"  id="a11" size="2" maxlength="4" onKeyUp="soma(a11, a12, a13)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a12"  id="a12" size="2" maxlength="4" onKeyUp="soma(a11, a12, a13)">
+									<input class="form-control numeros comungantes_admitidos_masc" placeholder="0" name="a12"  id="a12" size="2" maxlength="4" onKeyUp="soma(a11, a12, a13)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a13"  id="a13" size="2" maxlength="5" disabled="">
@@ -520,10 +520,10 @@
 									<label>Profissão de Fé e Batismo:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a21"  id="a21" size="2" onKeyUp="soma(a21, a22, a23)">
+									<input class="form-control numeros comungantes_admitidos_fem" placeholder="0" name="a21"  id="a21" size="2" onKeyUp="soma(a21, a22, a23)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a22"  id="a22" size="2" onKeyUp="soma(a21, a22, a23)">
+									<input class="form-control numeros comungantes_admitidos_masc" placeholder="0" name="a22"  id="a22" size="2" onKeyUp="soma(a21, a22, a23)">
 								</div>
 
 								<div class="col-md-2 col-sm-2">
@@ -536,10 +536,10 @@
 									<label>Transferência:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a31"  id="a31" size="2" onKeyUp="soma(a31, a32, a33)">
+									<input class="form-control numeros comungantes_admitidos_fem" placeholder="0" name="a31"  id="a31" size="2" onKeyUp="soma(a31, a32, a33)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a32"  id="a32" size="2" onKeyUp="soma(a31, a32, a33)">
+									<input class="form-control numeros comungantes_admitidos_masc" placeholder="0" name="a32"  id="a32" size="2" onKeyUp="soma(a31, a32, a33)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a33"  id="a33" size="2" disabled="">
@@ -551,10 +551,10 @@
 									<label>Jurisdição:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a41"  id="a41" size="2" onKeyUp="soma(a41, a42, a43)">
+									<input class="form-control numeros comungantes_admitidos_fem" placeholder="0" name="a41"  id="a41" size="2" onKeyUp="soma(a41, a42, a43)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a42"  id="a42" size="2" onKeyUp="soma(a41, a42, a43)">
+									<input class="form-control numeros comungantes_admitidos_masc" placeholder="0" name="a42"  id="a42" size="2" onKeyUp="soma(a41, a42, a43)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a43"  id="a43" size="2" disabled="">
@@ -566,10 +566,10 @@
 									<label>Restauração:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a51"  id="a51" size="2" onKeyUp="soma(a51, a52, a53)">
+									<input class="form-control numeros comungantes_admitidos_fem" placeholder="0" name="a51"  id="a51" size="2" onKeyUp="soma(a51, a52, a53)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a52"  id="a52" size="2" onKeyUp="soma(a51, a52, a53)">
+									<input class="form-control numeros comungantes_admitidos_masc" placeholder="0" name="a52"  id="a52" size="2" onKeyUp="soma(a51, a52, a53)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a53"  id="a53" size="2" disabled="">
@@ -581,10 +581,10 @@
 									<label>Designação do Presbitério:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a61"  id="a61" size="2"  onKeyUp="soma(a61, a62, a63)">
+									<input class="form-control numeros comungantes_admitidos_fem" placeholder="0" name="a61"  id="a61" size="2"  onKeyUp="soma(a61, a62, a63)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a62"  id="a62" size="2" onKeyUp="soma(a61, a62, a63)">
+									<input class="form-control numeros comungantes_admitidos_masc" placeholder="0" name="a62"  id="a62" size="2" onKeyUp="soma(a61, a62, a63)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a63"  id="a63" size="2" disabled="">
@@ -614,10 +614,10 @@
 									<label>Transferência:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a71"  id="a71" size="2" onKeyUp="soma(a71, a72, a73)">
+									<input class="form-control numeros comungantes_demitidos_fem" placeholder="0" name="a71"  id="a71" size="2" onKeyUp="soma(a71, a72, a73)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a72"  id="a72" size="2" onKeyUp="soma(a71, a72, a73)" >
+									<input class="form-control numeros comungantes_demitidos_masc" placeholder="0" name="a72"  id="a72" size="2" onKeyUp="soma(a71, a72, a73)" >
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a73"  id="a73" size="2" disabled="">
@@ -629,10 +629,10 @@
 									<label>Falecimento:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a81"  id="a81" size="2" onKeyUp="soma(a81, a82, a83)">
+									<input class="form-control numeros comungantes_demitidos_fem" placeholder="0" name="a81"  id="a81" size="2" onKeyUp="soma(a81, a82, a83)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a82"  id="a82" size="2" onKeyUp="soma(a81, a82, a83)">
+									<input class="form-control numeros comungantes_demitidos_masc" placeholder="0" name="a82"  id="a82" size="2" onKeyUp="soma(a81, a82, a83)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a83"  id="a83" size="2" disabled="">
@@ -644,10 +644,10 @@
 									<label>Exclusão:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a91"  id="a91" size="2" onKeyUp="soma(a91, a92, a93)">
+									<input class="form-control numeros comungantes_demitidos_fem" placeholder="0" name="a91"  id="a91" size="2" onKeyUp="soma(a91, a92, a93)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a92"  id="a92" size="2" onKeyUp="soma(a91, a92, a93)" >
+									<input class="form-control numeros comungantes_demitidos_masc" placeholder="0" name="a92"  id="a92" size="2" onKeyUp="soma(a91, a92, a93)" >
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a93"  id="a93" size="2" disabled="">
@@ -658,10 +658,10 @@
 									<label>Ordenação:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a101"  id="a101" size="2" onKeyUp="soma(a101, a102, a103)">
+									<input class="form-control numeros comungantes_demitidos_fem" placeholder="0" name="a101"  id="a101" size="2" onKeyUp="soma(a101, a102, a103)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a102"  id="a102" size="2" onKeyUp="soma(a101, a102, a103)">
+									<input class="form-control numeros comungantes_demitidos_masc" placeholder="0" name="a102"  id="a102" size="2" onKeyUp="soma(a101, a102, a103)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a103"  id="a103" size="2" disabled="">
@@ -705,10 +705,10 @@
 									<label>Admi- Demi:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a121"  id="a121" size="2" onKeyUp="soma(a121, a122, a123)">
+									<input class="form-control numeros comungantes_admitidos_fem_total" placeholder="0" name="a121"  id="a121" size="2" disabled="">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a122"  id="a122" size="2" onKeyUp="soma(a121, a122, a123)">
+									<input class="form-control numeros comungantes_admitidos_masc_total" placeholder="0" name="a122"  id="a122" size="2" disabled="">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a123"  id="a123" size="2" disabled="">
@@ -721,10 +721,10 @@
 									<label>Total de Comungantes do Ano anterior:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a131"  id="a131" size="2" disabled="" onKeyUp="soma(a131, a132, a133)">
+									<input class="form-control numeros" placeholder="0" name="a131"  id="a131" size="2" disabled="">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0"  name="a132"  id="a132" size="2" disabled="" onKeyUp="soma(a131, a132, a133)">
+									<input class="form-control numeros" placeholder="0"  name="a132"  id="a132" size="2" disabled="">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0"  name="a133"  id="a133" size="2" disabled="">
@@ -736,9 +736,10 @@
 									<label>Total de Comungantes do Ano atual:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a141"  id="a141" size="2" onKeyUp="soma(a141, a142, a143)">   </div>
+									<input class="form-control numeros" placeholder="0" name="a141"  id="a141" size="2" disabled="">   
+								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a142"  id="a142" size="2" onKeyUp="soma(a141, a142, a143)">
+									<input class="form-control numeros" placeholder="0" name="a142"  id="a142" size="2" disabled="">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a143"  id="a143" size="2" disabled="">
@@ -773,10 +774,10 @@
 									<label>Batismo:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a151"  id="a151" size="2" onKeyUp="soma(a151, a152, a153)">
+									<input class="form-control numeros naocomungantes_admitidos_fem" placeholder="0" name="a151"  id="a151" size="2" onKeyUp="soma(a151, a152, a153)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a152"  id="a152" size="2" onKeyUp="soma(a151, a152, a153)">
+									<input class="form-control numeros naocomungantes_admitidos_masc" placeholder="0" name="a152"  id="a152" size="2" onKeyUp="soma(a151, a152, a153)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a153"  id="a153" size="2" disabled="">
@@ -788,10 +789,10 @@
 									<label>Transferência:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a161"  id="a161" size="2" onKeyUp="soma(a161, a162, a163)">
+									<input class="form-control numeros naocomungantes_admitidos_fem" placeholder="0" name="a161"  id="a161" size="2" onKeyUp="soma(a161, a162, a163)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a162"  id="a162" size="2" onKeyUp="soma(a161, a162, a163)">
+									<input class="form-control numeros naocomungantes_admitidos_masc" placeholder="0" name="a162"  id="a162" size="2" onKeyUp="soma(a161, a162, a163)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a163"  id="a163" size="2" disabled="">
@@ -803,10 +804,10 @@
 									<label>Jurisdição  ex-officio:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a171"  id="a171" size="2" onKeyUp="soma(a171, a172, a173)">
+									<input class="form-control numeros naocomungantes_admitidos_fem" placeholder="0" name="a171"  id="a171" size="2" onKeyUp="soma(a171, a172, a173)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a172"  id="a172" size="2" onKeyUp="soma(a171, a172, a173)">
+									<input class="form-control numeros naocomungantes_admitidos_masc" placeholder="0" name="a172"  id="a172" size="2" onKeyUp="soma(a171, a172, a173)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a173"  id="a173" size="2" disabled="">
@@ -835,10 +836,10 @@
 								<label>Profissão de Fé:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-								<input class="form-control numeros" placeholder="0" name="a181"  id="a181" size="2" onKeyUp="soma(a181, a182, a183)">
+								<input class="form-control numeros naocomungantes_demitidos_fem" placeholder="0" name="a181"  id="a181" size="2" onKeyUp="soma(a181, a182, a183)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-								<input class="form-control numeros" placeholder="0" name="a182"  id="a182" size="2" onKeyUp="soma(a181, a182, a183)">
+								<input class="form-control numeros naocomungantes_demitidos_masc" placeholder="0" name="a182"  id="a182" size="2" onKeyUp="soma(a181, a182, a183)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 								<input class="form-control numeros" placeholder="0" name="a183"  id="a183" size="2" disabled="">
@@ -850,10 +851,10 @@
 									<label>Transferência:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a191"  id="a191" size="2" onKeyUp="soma(a191, a192, a193)">
+									<input class="form-control numeros naocomungantes_demitidos_fem" placeholder="0" name="a191"  id="a191" size="2" onKeyUp="soma(a191, a192, a193)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a192"  id="a192" size="2" onKeyUp="soma(a191, a192, a193)">
+									<input class="form-control numeros naocomungantes_demitidos_masc" placeholder="0" name="a192"  id="a192" size="2" onKeyUp="soma(a191, a192, a193)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a193"  id="a193" size="2" disabled="">
@@ -865,10 +866,10 @@
 									<label>Falecimento:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a201"  id="a201" size="2" onKeyUp="soma(a201, a202, a203)">
+									<input class="form-control numeros naocomungantes_demitidos_fem" placeholder="0" name="a201"  id="a201" size="2" onKeyUp="soma(a201, a202, a203)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a202"  id="a202" size="2" onKeyUp="soma(a201, a202, a203)">
+									<input class="form-control numeros naocomungantes_demitidos_masc" placeholder="0" name="a202"  id="a202" size="2" onKeyUp="soma(a201, a202, a203)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a203"  id="a203" size="2" disabled="">
@@ -880,10 +881,10 @@
 									<label>Exclusão:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a211"  id="a211" size="2" onKeyUp="soma(a211, a212, a213)">
+									<input class="form-control numeros naocomungantes_demitidos_fem" placeholder="0" name="a211"  id="a211" size="2" onKeyUp="soma(a211, a212, a213)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a212"  id="a212" size="2" onKeyUp="soma(a211, a212, a213)">
+									<input class="form-control numeros naocomungantes_demitidos_masc" placeholder="0" name="a212"  id="a212" size="2" onKeyUp="soma(a211, a212, a213)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a213"  id="a213" size="2" disabled="">
@@ -912,10 +913,10 @@
 									<label>Admi - Demi:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0"  name="a221"  id="a221" size="2" onKeyUp="soma(a221, a222, a223)">
+									<input class="form-control numeros naocomungantes_admitidos_fem_total" placeholder="0"  name="a221"  id="a221" size="2" disabled="" onKeyUp="soma(a221, a222, a223)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a222"  id="a222" size="2" onKeyUp="soma(a221, a222, a223)">
+									<input class="form-control numeros naocomungantes_admitidos_masc_total" placeholder="0" name="a222"  id="a222" size="2" disabled="" onKeyUp="soma(a221, a222, a223)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0"  name="a223"  id="a223" size="2" disabled="">
@@ -927,10 +928,10 @@
 									<label>Total Não-Comungantes Ano anterior:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a231"  id="a231" size="2" onKeyUp="soma(a231, a232, a233)">
+									<input class="form-control numeros" placeholder="0" name="a231"  id="a231" size="2" disabled="" onKeyUp="soma(a231, a232, a233)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a232"  id="a232" size="2" onKeyUp="soma(a231, a232, a233)">
+									<input class="form-control numeros" placeholder="0" name="a232"  id="a232" size="2" disabled="" onKeyUp="soma(a231, a232, a233)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a233"  id="a233" size="2" disabled="">
@@ -942,10 +943,10 @@
 									<label>Total Não-Comungantes Ano atual:</label>
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a241"  id="a241" size="2" onKeyUp="soma(a241, a242, a243)">
+									<input class="form-control numeros" placeholder="0" name="a241"  id="a241" size="2" disabled="" onKeyUp="soma(a241, a242, a243)">
 								</div>
 								<div class="col-md-2 col-sm-2">
-									<input class="form-control numeros" placeholder="0" name="a242"  id="a242" size="2" onKeyUp="soma(a241, a242, a243)">
+									<input class="form-control numeros" placeholder="0" name="a242"  id="a242" size="2" disabled="" onKeyUp="soma(a241, a242, a243)">
 								</div>
 								<div class="col-md-2 col-sm-2">
 									<input class="form-control numeros" placeholder="0" name="a243"  id="a243" size="2" disabled="">
@@ -975,7 +976,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" name="ano_ant_val_tot" type="text" id="ano_ant_val_tot" size="10" aria-describedby="basic-addon">
+									<input  class="form-control dinheiro" placeholder="0" name="ano_ant_val_tot" type="text" id="ano_ant_val_tot" size="10" aria-describedby="basic-addon" onkeyup="somaMoney([ano_ant_val_tot,ano_ant_saldo_ant],ano_ant_saldo_ant)">
 								</div>
 							</div>
 
@@ -985,7 +986,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  placeholder="0" class="form-control dinheiro" name="ano_ant_saldo_ant" type="text" id="ano_ant_saldo_ant" size="10" aria-describedby="basic-addon"  disabled="">
+									<input value="22,73" placeholder="0" class="form-control dinheiro" name="ano_ant_saldo_ant" type="text" id="ano_ant_saldo_ant" size="10" aria-describedby="basic-addon"  disabled="">
 								</div>
 							</div>
 
@@ -1001,7 +1002,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" onchange="totalReceitaAnual(ano_ant_rec_diz,ano_ant_rec_ofe_esp,ano_ant_rec_tot_anu)"  name="ano_ant_rec_diz" type="text" id="ano_ant_rec_diz" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" onkeyup="somaMoney([ano_ant_rec_diz,ano_ant_rec_ofe_esp],ano_ant_rec_tot_anu)"  name="ano_ant_rec_diz" type="text" id="ano_ant_rec_diz" size="10" aria-describedby="basic-addon" >
 								</div>
 							</div>
 
@@ -1012,13 +1013,13 @@
 
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" onchange="totalReceitaAnual(ano_ant_rec_diz,ano_ant_rec_ofe_esp,ano_ant_rec_tot_anu)" name="ano_ant_rec_ofe_esp" type="text" id="ano_ant_rec_ofe_esp" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" onkeyup="somaMoney([ano_ant_rec_diz,ano_ant_rec_ofe_esp],ano_ant_rec_tot_anu)" name="ano_ant_rec_ofe_esp" type="text" id="ano_ant_rec_ofe_esp" size="10" aria-describedby="basic-addon" >
 								</div>
 							</div>
 
 							<div class="row">
 								<div class="col-md-7 col-sm-6">
-									<label>Total da Receita Anual:</label>
+									<label>Total da Receita Ano Anterior:</label>
 								</div>
 
 								<div class="col-md-5 col-sm-6 input-group">
@@ -1029,7 +1030,7 @@
 
 							<div class="row">
 								<div class="col-md-7 col-sm-6">
-									<label>Grande Total:</label>
+									<label>Total da Receita Ano Anterior + Saldo - Ano Anterior:</label>
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
@@ -1047,7 +1048,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" name="ano_ant_des_patr" type="text" id="ano_ant_des_patr" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_ant_des_patr" type="text" id="ano_ant_des_patr" size="10" aria-describedby="basic-addon" onkeyup="somaMoney([ano_ant_des_patr,ano_ant_des_cau_loc, ano_ant_des_sus_past, ano_ant_des_veb_presb, ano_ant_des_diz_sup],ano_ant_des_tot_desp)">
 								</div>
 							</div>
 
@@ -1057,7 +1058,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0"  name="ano_ant_des_cau_loc" type="text" id="ano_ant_des_cau_loc" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0"  name="ano_ant_des_cau_loc" type="text" id="ano_ant_des_cau_loc" size="10" aria-describedby="basic-addon" onkeyup="somaMoney([ano_ant_des_patr,ano_ant_des_cau_loc, ano_ant_des_sus_past, ano_ant_des_veb_presb, ano_ant_des_diz_sup],ano_ant_des_tot_desp)">
 								</div>
 							</div>
 
@@ -1067,7 +1068,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" name="ano_ant_des_sus_past" type="text" id="ano_ant_des_sus_past" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_ant_des_sus_past" type="text" id="ano_ant_des_sus_past" size="10" aria-describedby="basic-addon" onkeyup="somaMoney([ano_ant_des_patr,ano_ant_des_cau_loc, ano_ant_des_sus_past, ano_ant_des_veb_presb, ano_ant_des_diz_sup],ano_ant_des_tot_desp)">
 								</div>
 							</div>
 
@@ -1077,7 +1078,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" name="ano_ant_des_veb_presb" type="text" id="ano_ant_des_veb_presb" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_ant_des_veb_presb" type="text" id="ano_ant_des_veb_presb" size="10" aria-describedby="basic-addon" onkeyup="somaMoney([ano_ant_des_patr,ano_ant_des_cau_loc, ano_ant_des_sus_past, ano_ant_des_veb_presb, ano_ant_des_diz_sup],ano_ant_des_tot_desp)">
 								</div>
 							</div>
 
@@ -1087,14 +1088,8 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0"  name="ano_ant_des_diz_sup" type="text" id="ano_ant_des_diz_sup" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0"  name="ano_ant_des_diz_sup" type="text" id="ano_ant_des_diz_sup" size="10" aria-describedby="basic-addon" onkeyup="somaMoney([ano_ant_des_patr,ano_ant_des_cau_loc, ano_ant_des_sus_past, ano_ant_des_veb_presb, ano_ant_des_diz_sup],ano_ant_des_tot_desp)">
 								</div>
-							</div>
-
-							<hr>
-
-							<div class="row">
-								<h4 class="subtitulo">Totais:</h4>
 							</div>
 
 							<div class="row">
@@ -1107,6 +1102,13 @@
 								</div>
 							</div>
 
+							<hr>
+
+							<div class="row">
+								<h4 class="subtitulo">Totais:</h4>
+							</div>
+
+							
 							<div class="row">
 								<div class="col-md-7 col-sm-6">
 									<label>Saldo - Ano seguinte:</label>
@@ -1300,7 +1302,7 @@
 				</div>
 			</div>
 		</div>
-		<script>
+		<script type="text/javascript">
 
 			$(document).ready(function(){
 
@@ -1329,121 +1331,330 @@
 				});
 
 
-				$(".numeros").mask("999999999");
+				$(".numeros").mask("?99999");
 
 				$(".dinheiro").maskMoney({prefix:'', allowNegative: true, thousands:'.', decimal:',', affixesStay: false});
+
+
+				somaTotaisComungantesAdmitidosDemitidosFeminino();
+
+				somaTotaisComungantesAdmitidosDemitidosMasculino();
+
+				somaTotaisNaoComungantesAdmitidosDemitidosFeminino();
+
+				somaTotaisNaoComungantesAdmitidosDemitidosMasculino();
+
+				somaMoney([ano_ant_rec_diz,ano_ant_rec_ofe_esp],ano_ant_rec_tot_anu);
+
+
+
+				$(".comungantes_admitidos_fem, .comungantes_demitidos_fem").on('keyup', function(event) {
+					
+					somaTotaisComungantesAdmitidosDemitidosFeminino();
+
+				});
+
+				$(".comungantes_admitidos_masc, .comungantes_demitidos_masc").on('keyup', function(event) {
+					
+					somaTotaisComungantesAdmitidosDemitidosMasculino();
+
+				});
+
+				$(".naocomungantes_admitidos_fem, .naocomungantes_demitidos_fem").on('keyup', function(event) {
+					
+					somaTotaisNaoComungantesAdmitidosDemitidosFeminino();
+
+				});
+
+				$(".naocomungantes_admitidos_masc, .naocomungantes_demitidos_masc").on('keyup', function(event) {
+					
+					somaTotaisNaoComungantesAdmitidosDemitidosMasculino();
+
+				});
 			});
-
-
-			function totalReceitaAnual(cp1, cp2, cp3) {
-			var value1 = $(cp1).val().replace(/\./g, '').replace(',', '.');
-
-			var value2 = $(cp2).val().replace(/\./g, '').replace(',', '.');
-
-			var res = parseFloat(value1) + parseFloat(value2);
-
-			$(cp3).val(parseFloat(res).toFixed(2));
-			}
-
-			/*
-			function grandTotal(cp1, cp2, cp3) {
-
-			var value1 = $(cp1).val().replace(',', '.');
-			var value2 = $(cp2).val().replace(',', '.');
-
-			if(value2 == ''){
-			value2 = 0.00;
-			}
-
-			var res = parseFloat(value1) + parseFloat(value2);
-
-			$(cp3).val(parseFloat(res).toFixed(2));
-
-			}
-
-
-
-
-			function somaDinheiros(cp1, cp2, cp3) {
-			var value1 = $(cp1).val().replace(/\./g, '').replace(',', '.');
-			var value2 = $(cp2).val().replace(/\./g, '').replace(',', '.');
-			var value3 = parseFloat(value1) + parseFloat(value2);
-
-			//alert(value1 + " + " + value2 + " = " + value3);
-			var value = value3;
-			$(cp3).val(value);
-			}
-
-			function alteraDinheiro(cp1, cp2) {
-			var value1 = parseFloat($(cp1).val().replace(/\./g, '').replace(',', '.'));
-			$(cp2).val(value1);
-			}
-
-
-
-
-			function totalReceitaAnual(cp1, cp2, cp3) {
-			var value1 = $(cp1).val().replace(/\./g, '').replace(',', '.');
-			var value2 = $(cp2).val().replace(/\./g, '').replace(',', '.');
-			var value3 = parseFloat(value1) + parseFloat(value2);
-
-			//  alert(value1 + " + " + value2 + " = " + value3);
-			var value = value3;
-			$(cp3).val(value);
-			}
-
-
-			function grandeTotal(cp1, cp2, cp3) {
-			var value1 = $(cp1).val().replace(/\./g, '').replace(',', '.');
-			var value2 = $(cp2).val().replace(/\./g, '').replace(',', '.');
-			var value3 = parseFloat(value1) + parseFloat(value2);
-
-			//  alert(value1 + " + " + value2 + " = " + value3);
-			var value = value3;
-			$(cp3).val(value);
-			}
-
-
-
-
-
 
 			function soma(n1, n2, n3) {
 
 
-			valor1 = parseInt($(n1).val());
+				var valor1 = parseInt($(n1).val().replace('\_', ''));
 
-			valor2 = parseInt($(n2).val());
+				var valor2 = parseInt($(n2).val().replace('\_', ''));
 
-			if (isNaN(valor1)) {
-			valor1 = 0;
+				if (isNaN(valor1)) {
+					valor1 = 0;
+				}
+
+				if (isNaN(valor2)) {
+					valor2 = 0;
+				}
+
+				$(n3).val(valor1 + valor2);
+
 			}
 
-			if (isNaN(valor2)) {
-			valor2 = 0;
-			}
-			$(n3).val(valor1 + valor2);
+			function somaMoney(arrayValores, n3) {
+
+				var total = 0;
+
+				$(arrayValores).each(function(index, el) {
+					var parcial = parseFloat($(el).val().replace(/\./g, '').replace(',', '.'));
+
+					if (isNaN(parcial)) {
+						parcial = 0;
+					}
+
+					total += parcial;	
+				});
+
+				$(n3).val(parseFloat(total).toFixed(2));
+				$(n3).trigger('mask.maskMoney');
 
 			}
 
 
+			// function somaMoney(n1, n2, n3) {
 
+			// 	var value1 = parseFloat($(n1).val().replace(/\./g, '').replace(',', '.'));
 
-			function dep(n1, n2, n3, n4, n5, n6, n7) {
+			// 	var value2 = parseFloat($(n2).val().replace(/\./g, '').replace(',', '.'));
 
-			var c1 = parseInt($(n1).val());
-			var c2 = parseInt($(n2).val());
-			var c3 = parseInt($(n3).val());
-			var c4 = parseInt($(n4).val());
-			var c5 = parseInt($(n5).val());
-			var c6 = parseInt($(n6).val());
+			// 	if (isNaN(value1)) {
+			// 		value1 = 0;
+			// 	}
 
-			var c7 = c1 + c2 + c3 + c4 + c5 + c6;
-			var res = 0;
-			var res = c7;
-			$(n7).val(res);
+			// 	if (isNaN(value2)) {
+			// 		value2 = 0;
+			// 	}
+
+			// 	var res = parseFloat(value1) + parseFloat(value2);
+
+			// 	// $(n3).maskMoney({prefix:'', allowNegative: true, thousands:'.', decimal:',', affixesStay: false});
+
+			// 	$(n3).val(parseFloat(res).toFixed(2));
+			// 	$(n3).trigger('mask.maskMoney');
+
+			// }
+
+			function somaTotaisComungantesAdmitidosDemitidosFeminino(){
+				var numero_pos = 0;
+				var numero_neg = 0;	
+
+				$(".comungantes_admitidos_fem").each(function(index, el) {
+					if ($(this).val().replace(/_/g, '') == '') {
+						numero_pos += 0;
+					}else{
+						numero_pos += parseInt($(this).val().replace(/_/g, ''));
+					}
+				});
+
+				$(".comungantes_demitidos_fem").each(function(index, el) {
+					if ($(this).val().replace(/_/g, '') == '') {
+						numero_neg += 0;
+					}else{
+						numero_neg += parseInt($(this).val().replace(/_/g, ''));
+					}
+				});
+
+				$(".comungantes_admitidos_fem_total").val(numero_pos - numero_neg);
+
+				soma($("#a121"), $("#a122"), $("#a123"));
+
+				soma($("#a131"), $("#a132"), $("#a133"));
+
+				soma($("#a121"), $("#a131"), $("#a141"));
+
+				soma($("#a141"), $("#a142"), $("#a143"));
 			}
-			*/
+
+			function somaTotaisComungantesAdmitidosDemitidosMasculino(){
+				var numero_pos = 0;
+				var numero_neg = 0;	
+
+				$(".comungantes_admitidos_masc").each(function(index, el) {
+					if ($(this).val().replace(/_/g, '') == '') {
+						numero_pos += 0;
+					}else{
+						numero_pos += parseInt($(this).val().replace(/_/g, ''));
+					}
+				});
+
+				$(".comungantes_demitidos_masc").each(function(index, el) {
+					if ($(this).val().replace(/_/g, '')== '') {
+						numero_neg += 0;
+					}else{
+						numero_neg += parseInt($(this).val().replace(/_/g, ''));
+					}
+				});
+
+				$(".comungantes_admitidos_masc_total").val(numero_pos - numero_neg);
+
+
+				soma($("#a121"), $("#a122"), $("#a123"));
+
+				soma($("#a131"), $("#a132"), $("#a133"));
+
+				soma($("#a122"), $("#a132"), $("#a142"));
+
+				soma($("#a141"), $("#a142"), $("#a143"));
+
+
+			}
+
+			function somaTotaisNaoComungantesAdmitidosDemitidosFeminino(){
+				var numero_pos = 0;
+				var numero_neg = 0;	
+
+				$(".naocomungantes_admitidos_fem").each(function(index, el) {
+					if ($(this).val().replace(/_/g, '') == '') {
+						numero_pos += 0;
+					}else{
+						numero_pos += parseInt($(this).val().replace(/_/g, ''));
+					}
+				});
+
+				$(".naocomungantes_demitidos_fem").each(function(index, el) {
+					if ($(this).val().replace(/_/g, '') == '') {
+						numero_neg += 0;
+					}else{
+						numero_neg += parseInt($(this).val().replace(/_/g, ''));
+					}
+				});
+
+				$(".naocomungantes_admitidos_fem_total").val(numero_pos - numero_neg);
+
+				soma($("#a221"), $("#a222"), $("#a223"));
+
+				soma($("#a231"), $("#a232"), $("#a233"));
+
+				soma($("#a221"), $("#a231"), $("#a241"));
+
+				soma($("#a241"), $("#a242"), $("#a243"));
+			}
+
+			function somaTotaisNaoComungantesAdmitidosDemitidosMasculino(){
+				var numero_pos = 0;
+				var numero_neg = 0;	
+
+				$(".naocomungantes_admitidos_masc").each(function(index, el) {
+					if ($(this).val().replace(/_/g, '') == '') {
+						numero_pos += 0;
+					}else{
+						numero_pos += parseInt($(this).val().replace(/_/g, ''));
+					}
+				});
+
+				$(".naocomungantes_demitidos_masc").each(function(index, el) {
+					if ($(this).val().replace(/_/g, '') == '') {
+						numero_neg += 0;
+					}else{
+						numero_neg += parseInt($(this).val().replace(/_/g, ''));
+					}
+				});
+
+				$(".naocomungantes_admitidos_masc_total").val(numero_pos - numero_neg);
+
+				soma($("#a221"), $("#a222"), $("#a223"));
+
+				soma($("#a231"), $("#a232"), $("#a233"));
+
+				soma($("#a222"), $("#a232"), $("#a242"));
+
+				soma($("#a241"), $("#a242"), $("#a243"));
+			}
+
+			function totalReceitaAnual(cp1, cp2, cp3) {
+				var value1 = $(cp1).val().replace(/\./g, '').replace(',', '.');
+
+				var value2 = $(cp2).val().replace(/\./g, '').replace(',', '.');
+
+				var res = parseFloat(value1) + parseFloat(value2);
+
+				$(cp3).val(parseFloat(res).toFixed(2));
+			}
+
+			
+			// function grandTotal(cp1, cp2, cp3) {
+
+			// var value1 = $(cp1).val().replace(',', '.');
+			// var value2 = $(cp2).val().replace(',', '.');
+
+			// if(value2 == ''){
+			// value2 = 0.00;
+			// }
+
+			// var res = parseFloat(value1) + parseFloat(value2);
+
+			// $(cp3).val(parseFloat(res).toFixed(2));
+
+			// }
+
+
+
+
+			// function somaDinheiros(cp1, cp2, cp3) {
+			// var value1 = $(cp1).val().replace(/\./g, '').replace(',', '.');
+			// var value2 = $(cp2).val().replace(/\./g, '').replace(',', '.');
+			// var value3 = parseFloat(value1) + parseFloat(value2);
+
+			// //alert(value1 + " + " + value2 + " = " + value3);
+			// var value = value3;
+			// $(cp3).val(value);
+			// }
+
+			// function alteraDinheiro(cp1, cp2) {
+			// var value1 = parseFloat($(cp1).val().replace(/\./g, '').replace(',', '.'));
+			// $(cp2).val(value1);
+			// }
+
+
+
+
+			// function totalReceitaAnual(cp1, cp2, cp3) {
+			// var value1 = $(cp1).val().replace(/\./g, '').replace(',', '.');
+			// var value2 = $(cp2).val().replace(/\./g, '').replace(',', '.');
+			// var value3 = parseFloat(value1) + parseFloat(value2);
+
+			// //  alert(value1 + " + " + value2 + " = " + value3);
+			// var value = value3;
+			// $(cp3).val(value);
+			// }
+
+
+			// function grandeTotal(cp1, cp2, cp3) {
+			// var value1 = $(cp1).val().replace(/\./g, '').replace(',', '.');
+			// var value2 = $(cp2).val().replace(/\./g, '').replace(',', '.');
+			// var value3 = parseFloat(value1) + parseFloat(value2);
+
+			// //  alert(value1 + " + " + value2 + " = " + value3);
+			// var value = value3;
+			// $(cp3).val(value);
+			// }
+
+
+
+
+
+
+			
+
+
+
+
+			// function dep(n1, n2, n3, n4, n5, n6, n7) {
+
+			// var c1 = parseInt($(n1).val());
+			// var c2 = parseInt($(n2).val());
+			// var c3 = parseInt($(n3).val());
+			// var c4 = parseInt($(n4).val());
+			// var c5 = parseInt($(n5).val());
+			// var c6 = parseInt($(n6).val());
+
+			// var c7 = c1 + c2 + c3 + c4 + c5 + c6;
+			// var res = 0;
+			// var res = c7;
+			// $(n7).val(res);
+			// }
+			
 
 		</script>
 
