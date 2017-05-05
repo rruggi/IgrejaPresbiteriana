@@ -976,7 +976,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" name="ano_ant_val_tot" type="text" id="ano_ant_val_tot" size="10" aria-describedby="basic-addon" onkeyup="somaMoney([ano_ant_val_tot,ano_ant_saldo_ant],ano_ant_saldo_ant)">
+									<input  class="form-control dinheiro" placeholder="0" name="ano_ant_val_tot" type="text" id="ano_ant_val_tot" size="10" aria-describedby="basic-addon">
 								</div>
 							</div>
 
@@ -1002,7 +1002,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" onkeyup="somaMoney([ano_ant_rec_diz,ano_ant_rec_ofe_esp],ano_ant_rec_tot_anu)"  name="ano_ant_rec_diz" type="text" id="ano_ant_rec_diz" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_ant_rec_diz" type="text" id="ano_ant_rec_diz" size="10" aria-describedby="basic-addon" >
 								</div>
 							</div>
 
@@ -1013,7 +1013,7 @@
 
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" onkeyup="somaMoney([ano_ant_rec_diz,ano_ant_rec_ofe_esp],ano_ant_rec_tot_anu)" name="ano_ant_rec_ofe_esp" type="text" id="ano_ant_rec_ofe_esp" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_ant_rec_ofe_esp" type="text" id="ano_ant_rec_ofe_esp" size="10" aria-describedby="basic-addon" >
 								</div>
 							</div>
 
@@ -1162,7 +1162,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" onchange="aTotRec(ano_seg_rec_diz_of, ano_seg_rec_ofe_esp, ano_seg_rec_tot_rec)" name="ano_seg_rec_diz_of" type="text" id="ano_seg_rec_diz_of" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_seg_rec_diz_of" type="text" id="ano_seg_rec_diz_of" size="10" aria-describedby="basic-addon" >
 								</div>
 							</div>
 
@@ -1172,7 +1172,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" onchange="aTotRec(ano_seg_rec_diz_of, ano_seg_rec_ofe_esp, ano_seg_rec_tot_rec)" name="ano_seg_rec_ofe_esp" type="text" id="ano_seg_rec_ofe_esp" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_seg_rec_ofe_esp" type="text" id="ano_seg_rec_ofe_esp" size="10" aria-describedby="basic-addon" >
 								</div>
 							</div>
 
@@ -1182,7 +1182,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" value="" onchange="aRecGranTotal(ano_seg_rec_tot_rec, ano_seg_sald_ano_ant, ano_seg_rec_grand_tot)" name="ano_seg_rec_tot_rec" type="text" id="ano_seg_rec_tot_rec" size="10" aria-describedby="basic-addon"  disabled="">
+									<input  class="form-control dinheiro" value="" name="ano_seg_rec_tot_rec" type="text" id="ano_seg_rec_tot_rec" size="10" aria-describedby="basic-addon"  disabled="">
 								</div>
 							</div>
 
@@ -1192,7 +1192,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" name="ano_seg_rec_grand_tot" type="text" id="ano_seg_rec_grand_tot" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_seg_rec_grand_tot" type="text" id="ano_seg_rec_grand_tot" size="10" aria-describedby="basic-addon" disabled="">
 								</div>
 							</div>
 
@@ -1209,7 +1209,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" onchange="aTotDespA(ano_seg_des_patr, ano_seg_des_caus_loc, ano_seg_des_sust_past, ano_seg_des_verb_presb, ano_seg_des_diz_sup, ano_seg_des_tot_anu)" name="ano_seg_des_patr" type="text" id="ano_seg_des_patr" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_seg_des_patr" type="text" id="ano_seg_des_patr" size="10" aria-describedby="basic-addon" >
 								</div>
 							</div>
 
@@ -1219,7 +1219,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" onchange="aTotDespA(ano_seg_des_patr, ano_seg_des_caus_loc, ano_seg_des_sust_past, ano_seg_des_verb_presb, ano_seg_des_diz_sup, ano_seg_des_tot_anu)" name="ano_seg_des_caus_loc" type="text" id="ano_seg_des_caus_loc" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_seg_des_caus_loc" type="text" id="ano_seg_des_caus_loc" size="10" aria-describedby="basic-addon" >
 								</div>
 							</div>
 
@@ -1229,7 +1229,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" onchange="aTotDespA(ano_seg_des_patr, ano_seg_des_caus_loc, ano_seg_des_sust_past, ano_seg_des_verb_presb, ano_seg_des_diz_sup, ano_seg_des_tot_anu)" name="ano_seg_des_sust_past" type="text" id="ano_seg_des_sust_past" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_seg_des_sust_past" type="text" id="ano_seg_des_sust_past" size="10" aria-describedby="basic-addon" >
 								</div>
 							</div>
 
@@ -1239,7 +1239,7 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" onchange="aTotDespA(ano_seg_des_patr, ano_seg_des_caus_loc, ano_seg_des_sust_past, ano_seg_des_verb_presb, ano_seg_des_diz_sup, ano_seg_des_tot_anu)" name="ano_seg_des_verb_presb" type="text" id="ano_seg_des_verb_presb" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_seg_des_verb_presb" type="text" id="ano_seg_des_verb_presb" size="10" aria-describedby="basic-addon" >
 								</div>
 							</div>
 
@@ -1249,7 +1249,17 @@
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" placeholder="0" onchange="aTotDespA(ano_seg_des_patr, ano_seg_des_caus_loc, ano_seg_des_sust_past, ano_seg_des_verb_presb, ano_seg_des_diz_sup, ano_seg_des_tot_anu)" name="ano_seg_des_diz_sup" type="text" id="ano_seg_des_diz_sup" size="10" aria-describedby="basic-addon" >
+									<input  class="form-control dinheiro" placeholder="0" name="ano_seg_des_diz_sup" type="text" id="ano_seg_des_diz_sup" size="10" aria-describedby="basic-addon" >
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-7 col-sm-6">
+									<label>Total da Despesa Anual:</label>
+								</div>
+								<div class="col-md-5 col-sm-6 input-group">
+									<span class="input-group-addon" id="basic-addon">R$</span>
+									<input  class="form-control dinheiro" value="" name="ano_seg_des_tot_anu" type="text" id="ano_seg_des_tot_anu" size="10" aria-describedby="basic-addon"  disabled="">
 								</div>
 							</div>
 
@@ -1259,24 +1269,13 @@
 								<h4 class="subtitulo">Totais:</h4>
 							</div>
 
-
-							<div class="row">
-								<div class="col-md-7 col-sm-6">
-									<label>Total da Despesa Anual:</label>
-								</div>
-								<div class="col-md-5 col-sm-6 input-group">
-									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" value="" onchange="aDespGradTot(ano_seg_des_tot_anu, ano_seg_des_sald_ano_seg, ano_seg_des_gran_tot)"  name="ano_seg_des_tot_anu" type="text" id="ano_seg_des_tot_anu" size="10" aria-describedby="basic-addon"  disabled="">
-								</div>
-							</div>
-
 							<div class="row">
 								<div class="col-md-7 col-sm-6">
 									<label>Saldo - Ano seguinte:</label>
 								</div>
 								<div class="col-md-5 col-sm-6 input-group">
 									<span class="input-group-addon" id="basic-addon">R$</span>
-									<input  class="form-control dinheiro" value="" name="ano_seg_des_sald_ano_seg"  onchange="aDespGradTot(ano_seg_des_tot_anu, ano_seg_des_sald_ano_seg, ano_seg_des_gran_tot)" type="text" id="ano_seg_des_sald_ano_seg" size="10" aria-describedby="basic-addon"  disabled="">
+									<input  class="form-control dinheiro" value="" name="ano_seg_des_sald_ano_seg" type="text" id="ano_seg_des_sald_ano_seg" size="10" aria-describedby="basic-addon"  disabled="">
 								</div>
 							</div>
 
@@ -1343,8 +1342,8 @@
 				somaTotaisNaoComungantesAdmitidosDemitidosFeminino();
 
 				somaTotaisNaoComungantesAdmitidosDemitidosMasculino();
-
-				somaMoney([ano_ant_rec_diz,ano_ant_rec_ofe_esp],ano_ant_rec_tot_anu);
+				
+				grandesSomasDinheiro();
 
 
 
@@ -1371,6 +1370,11 @@
 					somaTotaisNaoComungantesAdmitidosDemitidosMasculino();
 
 				});
+
+				$(".dinheiro").on('keyup', function(event) {
+					grandesSomasDinheiro();
+				});
+
 			});
 
 			function soma(n1, n2, n3) {
@@ -1411,29 +1415,57 @@
 
 			}
 
+			function subtraiMoney(arrayValores, n3) {
 
-			// function somaMoney(n1, n2, n3) {
+				var total = 0;
 
-			// 	var value1 = parseFloat($(n1).val().replace(/\./g, '').replace(',', '.'));
+				$(arrayValores).each(function(index, el) {
+					var parcial = parseFloat($(el).val().replace(/\./g, '').replace(',', '.'));
 
-			// 	var value2 = parseFloat($(n2).val().replace(/\./g, '').replace(',', '.'));
+					if (isNaN(parcial)) {
+						parcial = 0;
+					}
 
-			// 	if (isNaN(value1)) {
-			// 		value1 = 0;
-			// 	}
+					if(index == 0){
+						total = parcial;
+					}else{
+						total -= parcial;
+					}
+	
+				});
 
-			// 	if (isNaN(value2)) {
-			// 		value2 = 0;
-			// 	}
+				$(n3).val(parseFloat(total).toFixed(2));
+				$(n3).trigger('mask.maskMoney');
 
-			// 	var res = parseFloat(value1) + parseFloat(value2);
+			}
 
-			// 	// $(n3).maskMoney({prefix:'', allowNegative: true, thousands:'.', decimal:',', affixesStay: false});
+			function grandesSomasDinheiro(){
 
-			// 	$(n3).val(parseFloat(res).toFixed(2));
-			// 	$(n3).trigger('mask.maskMoney');
+				somaMoney([ano_ant_rec_diz,ano_ant_rec_ofe_esp],ano_ant_rec_tot_anu);
+				
+				somaMoney([ano_ant_saldo_ant, ano_ant_rec_tot_anu], ano_ant_rec_grand_tot);
 
-			// }
+				subtraiMoney([ano_ant_rec_grand_tot, ano_ant_des_tot_desp],ano_ant_des_sald_ano_seg);
+
+				subtraiMoney([ano_ant_rec_grand_tot, ano_ant_des_tot_desp],ano_seg_sald_ano_ant);
+
+				somaMoney([ano_ant_des_tot_desp, ano_ant_des_sald_ano_seg], ano_ant_des_grand_tot);
+
+				//segunda coluna
+
+				somaMoney([ano_seg_rec_diz_of, ano_seg_rec_ofe_esp], ano_seg_rec_tot_rec);
+
+				somaMoney([ano_seg_sald_ano_ant, ano_seg_rec_tot_rec], ano_seg_rec_grand_tot);
+
+				somaMoney([ano_seg_des_patr, ano_seg_des_caus_loc, ano_seg_des_sust_past, ano_seg_des_verb_presb, ano_seg_des_diz_sup], ano_seg_des_tot_anu);
+
+
+				subtraiMoney([ano_seg_rec_grand_tot, ano_seg_des_tot_anu],ano_seg_des_sald_ano_seg);
+
+				
+				somaMoney([ano_seg_des_tot_anu, ano_seg_des_sald_ano_seg], ano_seg_des_gran_tot);
+
+			}
 
 			function somaTotaisComungantesAdmitidosDemitidosFeminino(){
 				var numero_pos = 0;
@@ -1561,6 +1593,7 @@
 
 				soma($("#a241"), $("#a242"), $("#a243"));
 			}
+
 
 			function totalReceitaAnual(cp1, cp2, cp3) {
 				var value1 = $(cp1).val().replace(/\./g, '').replace(',', '.');
