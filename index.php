@@ -27,7 +27,7 @@
 
 			<hr>
 			<!-- <form method="post" action="http://relatorioipb.com.br/index.php/Igreja/salvaIgreja"> -->
-			<form method="post" action="www.google.com">
+			<form method="post" action="www.google.com" id="formulario_ipb" target="blank_">
 				<div class="panel-success padrao col-xs-12">
 					<div class="panel-heading">I - Identificação da Igreja / Congregação Presbiterial</div>
 					<!-- DIVISÃO EM DUAS COLUNAS -->
@@ -1320,9 +1320,12 @@
 					location.replace("http://relatorioipb.com.br/index.php/Usuario/voltaParaData");
 				});
 				$("#botao_imprimir").on('click', function() {
-					//location.replace("http://relatorioipb.com.br/index.php/Usuario/voltaParaData");
+
+					$("#formulario_ipb").attr("action", "impressao.php");
+
 					console.log("imprimiu");
-					window.print();
+
+					$("#formulario_ipb").submit();
 				});
 				$("#botao_salvar").on('click', function() {
 					// location.replace("http://relatorioipb.com.br/index.php/Usuario/voltaParaData");
