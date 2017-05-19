@@ -25,7 +25,7 @@ ob_start();
 				width: 100%;
 				text-align: center;
 				border: 1px solid #000;
-				display: inline;
+				height: 100px;
 			}
 			.igreja_logo{
 				width: 20%;
@@ -34,13 +34,30 @@ ob_start();
 			.titulo_top{
 				margin-left: 20%;
 				width: 80%;
-				text-align: right;
+				text-align: right;	
 			}
 
+
+			.container_ii{
+				margin-top: 75px;
+				width: 100%;
+				text-align: center;
+				display: block;
+			}
+			.titulo{
+				font-weight: bold;
+			}
 			.identificacao_igreja{
 				width: 100%;
-				border: 1px solid #000;
 			}
+
+
+			table, th, td{
+    			border: 1px solid black;
+    			border-collapse: collapse;
+			}
+
+
 		</style>
 	</head>
 
@@ -51,11 +68,64 @@ ob_start();
 				INFORMAÇÕES CADASTRAIS E ESTATÍSTICAS DA COMUNIDADE PRESBITERIANA
 			</h3>
 		</div>
-		<table class="identificacao_igreja">
-			<tr>
-				<th>I - Identificação da Igreja / Congregação Presbiterial</th>
-			</tr>
-		</table>
+		<div class="container_ii">
+			<p class="titulo">I - Identificação da Igreja / Congregação Presbiterial</p>
+			<table class="identificacao_igreja">
+				<tr>
+					<th colspan="8">Informações da Igreja:</th>
+				</tr>
+				<tr>
+					<td>Nome da Igreja:</td>
+					<td colspan="7">carai</td>
+				</tr>
+				<tr>
+					<td>Endereço:</td>
+					<td colspan="3"></td>
+					<td>Numero:</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr>
+					<td>Complemento:</td>
+					<td colspan="3"></td>
+					<td>Bairro:</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr>
+					<td>Cidade:</td>
+					<td></td>
+					<td>UF:</td>
+					<td></td>
+					<td>CEP:</td>
+					<td></td>
+					<td>CP:</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>CEP2:</td>
+					<td></td>
+					<td>DDD:</td>
+					<td></td>
+					<td>Telefone:</td>
+					<td></td>
+					<td>Fax:</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>E-mail:</td>
+					<td colspan="3"></td>
+					<td>Data de Organização:</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr>
+					<td>CNPJ</td>
+					<td colspan="2"></td>
+					<td>Número da Ordem:</td>
+					<td colspan="2"></td>
+					<td>H-Page:</td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
 	</body>
 </html>
 
